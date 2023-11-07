@@ -88,7 +88,7 @@ class MainActivity : ComponentActivity() {
         }
         if(classe.isEmpty()){
             val rootView: View = findViewById(android.R.id.content)
-            /*val snackBar= Snackbar.make(
+            val snackBar= Snackbar.make(
                     rootView,
                     "you should choose a class",
                     Snackbar.LENGTH_LONG
